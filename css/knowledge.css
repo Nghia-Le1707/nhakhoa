@@ -1,0 +1,247 @@
+.banner-kn {
+    background-size: cover;
+    background-image: url(../img/banner-cat-100.jpg);
+    background-position: left;
+}
+.r-text-heading-s6 span {
+    color: #fff;
+}
+.r-text-heading-s6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.page,
+.page a {
+    color: #fff;
+    font-size: 16px;
+}
+.page {
+    column-gap: 5px;
+}
+.banner-kn .container {
+    padding-top: 155px;
+    padding-bottom: 50px;
+}
+.container {
+    padding-bottom: 0;
+}
+.lbanner-s2-kn img {
+    width: 100%;
+}
+.rcontent-s2-kn {
+    width: 70%;
+}
+.lcontent-s2-kn {
+    width: 30%;
+}
+.row.content-s2-kn {
+    gap: 30px;
+}
+.cat-kn {
+    background: #F4F4F4;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.cat-kn p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+.lbanner-s2-kn {
+    position: sticky;
+    top: 0;
+}
+.article-new span {
+    color: #1F3B8D;
+}
+.article-new p {
+    color: #00AC7C;
+}
+.article-new {
+    display: flex;
+    gap: 10px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.content-article img {
+    width: 100%;
+    border-radius: 15px;
+}
+.title-article a {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.row.article-top,
+.row.article-bottom,
+.gaps2 {
+    gap: 30px;
+}
+.date_view {
+    justify-content: space-between;
+    font-size: 10px;
+}
+.date_view a {
+    color: #A5A5A5;
+}
+.date, .view {
+    gap: 2px;
+}
+.title-article {
+    margin: 5px 0 10px 0;
+}
+.zoom-img {
+    margin-bottom: 0;
+}
+.content-article {
+    margin-top: 50px;
+}
+.article {
+    border-bottom: 1px solid #80808038;
+    padding-bottom: 60px;
+}
+.news img {
+    width: 100%;
+    border-radius: 15px;
+}
+.news {
+    margin-top: 70px;
+}
+.margin-news {
+    margin-bottom: 50px;
+}
+.title-news a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+.date_view_news a {
+    color: #333;
+}
+.date_view_news {
+    font-size: 16px;
+    gap: 30px;
+    margin: 10px 0 20px 0;
+}
+.date_news, .view_news {
+    gap: 10px;
+}
+.nvcate_excerpt p {
+    font-size: 16px;
+    color: #333;
+}
+.view-more-news a {
+    font-size: 14px;
+    background: #E5E5E5;
+    color: #6D6D6D;
+    padding: 8px 24px;
+    border-radius: 20px;
+}
+.view-more-news {
+    margin: 40px 0;
+}
+.row.margin-news {
+    gap: 30px;
+}
+.title-news {
+    margin-bottom: 20px;
+}
+.cat-kn p {
+    color: #333;
+}
+.view-more-news a:hover {
+    color: #fff;
+    background: #172E75;
+}
+.page-number {
+    justify-content: center;
+    gap: 7px;
+    padding-bottom: 70px;
+}
+.number,
+.page-more{
+    color: #1F3B8B;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    border-radius: 999px;
+    padding: 8px 13px;
+}
+.title-article a:hover {
+    color: #1F3B8B;
+}
+.active-pn,
+.number:hover,
+.page-more:hover {
+    background: #1F3B8B;
+    color: #fff;
+}
+.page a:hover {
+    color: #00AA7C;
+}
+.content-s2-kn .col-lg-6,
+.article-top .col-lg-6,
+.article-bottom .col-lg-6 {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .lcontent-s2-kn {
+        display: none;
+        width: 0;
+    }
+    .content-s2-kn .col-lg-6,
+    .article-top .col-lg-6,
+    .article-bottom .col-lg-6 {
+        display: block;
+    }
+    .content-s2-kn .col-lg-4,
+    .article-top .col-lg-3,
+    .article-bottom .col-lg-3 {
+        display: none;
+    }
+    .rcontent-s2-kn {
+        width: 100%;
+        padding: 40px 0;
+    }
+    .row.content-s2-kn {
+        gap: 20px;
+    }
+    .cat-kn {
+        padding: 23px 0;
+        margin-bottom: 20px;
+    }
+    .banner-kn .container {
+        padding: 125px 12px 50px 12px !important;
+    }
+    .banner-kn {
+        background-position: center;
+    }
+    .page a {
+        color: #00ac7c;
+    }
+    .margin-news .col-lg-6 {
+        width: 100%;
+    }
+    .row.margin-news {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .nvcate_excerpt p {
+        font-size: 14px;
+    }
+    .date_view_news {
+        font-size: 13px;
+    }
+    .row.article-top, .row.article-bottom {
+        gap: 20px;
+    }
+    .zoom-img {
+        margin-bottom: 0;
+    }
+    .title-article {
+        margin: 0 0 7px 0;
+    }
+
+}

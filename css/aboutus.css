@@ -1,0 +1,295 @@
+.section1-about-us {
+    background-size: cover;
+    background-image: url(../img/banner-cat-100.jpg);
+}
+.section1-about-us .container,
+.section3-about-us .container,
+.banner-s4-au .container {
+    padding: 0;
+}
+.section1-about-us h1 {
+    padding-top: 180px;
+    padding-bottom: 58px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+.right-s2-au img {
+    width: 100%;
+}
+.section2-about-us .container {
+    padding: 0;
+}
+.title-s2-au h1,
+.text-lcontent-s3-au h1 {
+    font-size: 40px;
+    color: #58595B;
+    font-weight: 700;
+}
+.left-s2-au {
+    display: flex;
+    align-items: center;
+}
+.title-s2-au .line {
+    height: 2px;
+    margin-bottom: 30px;
+}
+.title-s2-au p {
+    width: 87%;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #4D4D4F;
+}
+section.section2-about-us,
+.border-bottom-s3-au {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #80808038;
+}
+.section3-about-us {
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+    background-image: url(../img/Anh-tren-web-Daisy_1600-x-745-1-1.png);
+}
+.lcontent-s3-au img {
+    margin-top: 15px;
+    width: 73px;
+    height: 73px;
+}
+.text-lcontent-s3-au p {
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 14px;
+    color: #636466;
+}
+.lcontent-s3-au {
+    width: 86%;
+}
+.text-lcontent-s3-au {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+.row.lcontent-s3-au {
+    column-gap: 22px;
+}
+.lcontent-s3-au-value,
+.text-lcontent-s3-au p {
+    margin-top: 15px;
+}
+.lcontent-s3-au-value h3 {
+    margin-bottom: 3px;
+    color: #636466;
+}
+.lcontent-s3-au-value p {
+    margin: 0;
+}
+.section3-about-us .col-lg-7 {
+    padding: 5px 0; 
+    margin-left: 77px;
+    overflow-y: scroll;
+    max-height: 800px;
+}
+.section3-about-us .col-lg-7::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.section3-about-us .col-lg-7::-webkit-scrollbar-thumb {
+    background: #636466;
+    border-radius: 20px;
+}
+section.section6-about-us {
+    border-top: 1px solid #80808038;
+}
+.section6-about-us img {
+    width: 100%;
+}
+.text-heading-s6-au,
+.text-heading-s7-au {
+    text-align: left;
+    color: #4D4D4F;
+    font-size: 40px;
+    font-weight: 700;
+}
+.section7-about-us {
+    padding-bottom: 75px;
+    text-align: center;
+}
+.section7-about-us img {
+    width: 251px;
+    height: 194px;
+}
+.banner-s4-au img {
+    width: 100%;
+}
+.banner-s4-au {
+    position: relative;
+}
+.logo-s4-au img {
+    max-width: 140px;
+}
+.content-secion4-au {
+    position: absolute;
+        bottom: calc(50% - 180px);
+}
+.content-secion4-au h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+.logo-s4-au {
+    margin-bottom: 120px;
+}
+.content-secion4-au p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+}
+.content-secion4-au .line-g {
+    width: 70px;
+}
+#border-img-s7-au {
+    padding: 60px 0;
+    width: 312.5px;
+    margin: 0 auto;
+    border: 1px solid #80808038 ;
+}
+#backgr-img-fullscreen {
+    display: none;
+    background: #00000078;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.img-fullscreen {
+    width: 763px;
+    position: absolute;
+    height: 572px;
+    right: calc(50% - 381.5px);
+    bottom: calc(50% - 286px);
+}
+.img-fullscreen img {
+    width: 100%;
+    height: auto;
+}
+#btn-close-au {
+    position: fixed;
+    z-index: 99;
+    right: 16%;
+    font-size: 35px;
+    top: 8%;
+    color: #fff;
+    cursor: pointer;
+}
+.s6-au-mb,
+.banner-mb-s3-au,
+.title-s3-au-mb,
+.banner-s4-au-mb {
+    display: none;
+}
+.banner-mb-s3-au img {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .s6-au-mb,
+    .banner-mb-s3-au,
+    .title-s3-au-mb,
+    .banner-s4-au-mb {
+        display: block;
+    }
+    .s6-au-pc,
+    .banner-s4-au-pc     {
+        display: none;
+    }
+    .section1-about-us h1 {
+        padding-top: 150px;
+        font-size: 28px;
+    }
+    .section1-about-us {
+        background-position: center;
+    }
+    .col-lg-6.left-s2-au,
+    .col-lg-6.right-s2-au {
+        width: 100%;
+    }
+    section.section2-about-us {
+        padding: 40px 0;
+    }
+    section.section2-about-us .row {
+        flex-wrap: wrap;
+    }
+    .title-s2-au p {
+        width: 100%;
+    }
+    .title-s2-au h1,
+    .text-heading-s6-au, 
+    .text-heading-s7-au,
+    .text-lcontent-s3-au h1,
+    .title-s3-au-mb {
+        font-size: 28px;
+        color: #58595B;
+        font-weight: 700;
+    }
+    .title-s2-au .line {
+        margin-top: 15px;
+        width: 75px;
+    }
+    section.section6-about-us {
+        padding: 50px 0 65px 0;
+        border-bottom: 1px solid #80808038;
+    }
+    .s6-au-mb p {
+        font-size: 20px;
+        color: #4D4D4F;
+    }
+    section.section7-about-us {
+        padding: 75px 0;
+    }
+    #border-img-s7-au img {
+        width: 195px;
+        height: auto;
+    }
+    #border-img-s7-au {
+        border: none;
+    }
+    .section3-about-us {
+        background-image: url(../img/anh-trang-gioi-thieu-nha-khoa-daisy-mobile.png);
+    }
+    section.section3-about-us .row {
+        flex-wrap: wrap;
+    }
+    
+    section.section3-about-us .col-lg-7 {
+        margin: 0;
+        width: 100%;
+    }
+    section.section3-about-us .col-lg-5 {
+        width: 0;
+    }
+    .section3-about-us {
+        background-image: none;
+    }    
+    .section3-about-us .col-lg-7 {
+        padding: 0;
+        overflow-y: unset;
+        max-height: max-content;
+    }
+    .lcontent-s3-au {
+        width: 100%;
+    }
+    .text-lcontent-s3-au {
+        margin-top: 20px;
+    }
+    .title-s3-au-mb {
+        margin-bottom: 35px;
+    }
+    .col-lg-4.content-secion4-au {
+        top: 23%;
+        width: 98%;
+    }
+    .logo-s4-au {
+        display: none;
+    }    
+}

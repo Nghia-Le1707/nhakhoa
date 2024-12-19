@@ -1,0 +1,759 @@
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Nha Khoa DaiSy</title>
+    </head>
+    <body>
+        <style>
+            body { font-family: Arial; font-size: 0.3cm }
+            </style>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <header id="header">
+            <div class="top-menu">
+                <ul class="row container content-top-menu">
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Tra cứu bảo hành</a></li>
+                </ul>
+            </div>
+            <div class="sub-header">
+                <div class="container">
+                <div class="row content-sub-header">
+                    <a href="#" class="logo-header"><img src="img/logo-header.png" alt=""></a>
+                    <div class="row right-content">
+                        <div class="row hotline">
+                            <div class="icon-hotline">
+                                <img src="img/icon-contact0.png" alt="">
+                            </div>
+                            <div class="content-hotline">
+                                <a href="#">1900 9009</a>
+                                <p>Hotline hỗ trợ 24/7</p>
+                            </div>
+                        </div>
+                    <div class="row t-act">
+                        <div class="icon-t-act">
+                            <img src="img/icon-clock.png" alt="">
+                        </div>
+                        <div class="content-t-act">
+                            <a>T.Hai - C.Nhật</a>
+                            <p>9AM - 8PM</p>
+                        </div>
+                    </div>
+                    <div class="row item-header">
+                        <a href="#" class="ic-yt"><i class="fa-brands fa-square-youtube"></i></a>
+                        <a href="#" class="ic-tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" class="ic-fb"><i class="fa-brands fa-square-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="right-content-mb">
+                    <div class="row">
+                        <div class="phone"><i class="fa-solid fa-phone-flip"></i></div>
+                        <div class="appointment"><a href="#">ĐẶT HẸN</a></div>
+                        <button id="btn-menu"><i class="fa-solid fa-bars"></i>
+                            <ul id="list-btn-menu">
+                            <li><a href="index.htm" class="active">Trang Chủ</a></li>
+                            <li class="have-arrow"><a href="./about-us.htm">Về Chúng Tôi</a>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </li>
+                            <li class="have-arrow"><a href="#">Dịch Vụ</a>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </li>
+                            <li class="have-arrow"><a href="./price.htm">Bảng Giá</a>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </li>
+                            <li class="have-arrow"><a href="./knowledge.htm">Kiến Thức Nha Khoa</a>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </li>
+                            <li class="have-arrow"><a href="./pathology.htm">Bệnh Lý Răng Miệng</a>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </li>
+                            <li><a href="#">Khách Hàng</a></li>
+                            <li><a href="#">Tin Tức</a></li>
+                            <li><a href="#">Liên Hệ</a></li>
+                        </ul>
+                    </button>
+                    <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+            <div class="menu container">
+                <div class="row menu-header">
+                <ul class="row menu">
+                    <li><a href="index.htm" class="active">Trang Chủ</a></li>
+                    <li class="aboutus-menu">
+                        <a href="./about-us.htm">Về Chúng Tôi
+                            <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="list-hover">
+                                <li><a href="#">Đội Ngũ Bác Sĩ</a></li>
+                                <li><a href="#">Câu Chuyện Thương Hiệu</a></li>
+                                <li><a href="#">Văn Hóa Nha Khoa DAISY</a></li>
+                                <li><a href="#">Công Nghệ Nha Khoa</a></li>
+                                <li><a href="#">Nha khoa Quốc tế DAISY Bình Dương</a></li>
+                            </ul>
+                    </li>
+                    <li class="service-menu">
+                        <a href="#">Dịch Vụ
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="list-hover">
+                            <li><a href="#">Bọc Răng Sứ Thẫm Mỹ</a></li>
+                            <li><a href="#">Niềng Răng Thẫm Mỹ</a></li>
+                            <li><a href="#">Trồng Răng Implant</a></li>
+                            <li><a href="#">Tẩy Trắng Răng</a></li>
+                            <li><a href="#">Trám Răng Thẩm Mỹ</a></li>
+                            <li><a href="#">Nhổ Răng Khôn</a></li>
+                            <li><a href="#">Dán Sứ Veneer</a></li>
+                            <li><a href="#">Điều Trị Tủy</a></li>
+                            <li><a href="#">Đính Đá Răng</a></li>
+                            <li><a href="#">Setup phòng khám</a></li>
+                        </ul>
+                    </li>
+                    <li class="price-menu">
+                        <a href="./price.htm">Bảng Giá
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="list-hover">
+                            <li><a href="#">Bảng Giá Bọc Răng Sứ</a></li>
+                            <li><a href="#">Bảng Giá Niềng Răng</a></li>
+                            <li><a href="#">Bảng Giá Trồng Răng Implant</a></li>
+                            <li><a href="#">Bảng Giá Dán Răng Sứ Veneer</a></li>
+                            <li><a href="#">Bảng Giá Tẩy Trắng Răng</a></li>
+                            <li><a href="#">Bảng Giá Trám Răng</a></li>
+                            <li><a href="#">Bảng Giá Nhổ Răng Khôn</a></li>
+                            <li><a href="#">Bảng Giá Đính Đá Răng</a></li>
+                            <li><a href="#">Bảng Giá Lấy Cao Răng</a></li>
+                            <li><a href="#">Bảng giá Nha khoa Quốc tế Daisy Bình Dương</a></li>
+                        </ul>
+                    </li>
+                    <li class="knowledge">
+                        <a href="./knowledge.htm">Kiến Thức Nha Khoa
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="list-hover">
+                            <li><a href="#">Kiến Thức Răng Sứ</a></li>
+                            <li><a href="#">Kiến Thức Niềng Răng</a></li>
+                            <li><a href="#">Kiến Thức Implant</a></li>
+                            <li><a href="#">Kiến Thức Tẩy Trắng Răng</a></li>
+                            <li><a href="#">Kiến Thức Hàn Trám Răng</a></li>
+                            <li><a href="#">Kiến Thức Nhổ Răng Khôn</a></li>
+                            <li><a href="#">Kiến Thức Dán Sứ Veneer</a></li>
+                            <li><a href="#">Kiến Thức Điều Trị Tủy</a></li>
+                            <li><a href="#">Kiến Thức Đính Đá Răng</a></li>
+                            <li><a href="#">Kiến Thức Lấy Cao Răng</a></li>
+                            <li><a href="#">Kiến Thức Mọc Răng</a></li>
+                        </ul>
+                    </li>
+                    <li class="path-menu">
+                        <a href="./pathology.htm">Bệnh Lý Răng Miệng
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="list-hover">
+                            <li><a href="#">Bệnh Sâu Răng</a></li>
+                            <li><a href="#">Viêm Nướu Răng</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./guest.htm">Khách Hàng</a>
+                    </li>
+                    <li>
+                        <a href="./news.htm">Tin Tức</a>
+                    </li>
+                    <li>
+                        <a href="./contact.htm">Liên Hệ</a>
+                    </li>
+                </ul>  
+                <div class="advise">
+                    <div class="content-advise">
+                        <img src="img/pen-footer.svg" alt="">
+                        <a href="#" class="btn-advise">TƯ VẤN</a>
+                    </div>
+                    </div>
+                <button class="btn-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                </div>
+            </div>
+        </header>
+        
+        <main class="wrapper">
+            <div class="messeng"><a href="#"><img src="img/messeng.svg" alt=""></a></div>
+            <section class="section1">
+                <div class="banner-section1">
+                    <div><a href="#"><img src="img/banner1.webp" alt=""></a></div>
+                    <div><a href="#"><img src="img/banner1.webp" alt=""></a></div> 
+                    <div><a href="#"><img src="img/banner1.webp" alt=""></a></div>
+                    <div><a href="#"><img src="img/banner1.webp" alt=""></a></div>
+                    <div><a href="#"><img src="img/banner1.webp" alt=""></a></div>
+                    <div><a href="#"><img src="img/banner1.webp" alt=""></a></div>
+                </section>
+                </div>
+            <section class="section2">
+                <div class="container">
+                <div class="row content-section2">
+                    <div class="right-content-section2">
+                        <p>Dịch vụ của</p>
+                        <h1>NHA KHOA QUỐC TẾ DAISY</h1>
+                        <div class="line"></div>
+                    </div>
+                    <div class="left-content-section2">
+                        <div class="row gap-s2">
+                            <div class="col-lg-4 mg-sv">
+                                <div class="s2-img">
+                                    <a href="#"><img src="img/is2.jpg" alt=""></a>
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                </div>
+                                <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                            </div>
+                            <div class="col-lg-4 mg-sv">
+                                <div class="s2-img">
+                                    <a href="#"><img src="img/is2.jpg" alt=""></a>
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                </div>
+                                <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                            </div>
+                            <div class="col-lg-4 mg-sv">
+                                <div class="s2-img">
+                                    <a href="#"><img src="img/is2.jpg" alt=""></a>
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                </div>
+                                <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                            </div>
+                        </div>
+                        <div class="row gap-s2">
+                            <div class="col-lg-4 mg-sv">
+                                <div class="s2-img">
+                                    <a href="#"><img src="img/is2.jpg" alt=""></a>
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                </div>
+                                <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                            </div>
+                            <div class="col-lg-4 mg-sv">
+                                <div class="s2-img">
+                                    <a href="#"><img src="img/is2.jpg" alt=""></a>
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                </div> 
+                                <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                            </div>
+                            <div class="col-lg-4 mg-sv">
+                                <div class="s2-img">
+                                    <a href="#"><img src="img/is2.jpg" alt=""></a>
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                </div>
+                                <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                            </div>
+                        </div>
+                        <div class="row gap-s2">
+                            <div class="col-lg-4 mg-sv">
+                                <div class="s2-img">
+                                    <a href="#"><img src="img/is2.jpg" alt=""></a>
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                </div> 
+                                <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                            </div>
+                            <div class="col-lg-4 mg-sv">
+                                <div class="s2-img">
+                                    <a href="#"><img src="img/is2.jpg" alt=""></a>
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                </div>
+                                <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                            </div>
+                            <div class="col-lg-4 mg-sv">
+                                <div class="s2-img">
+                                    <a href="#"><img src="img/is2.jpg" alt=""></a>
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                </div>
+                                <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                            </div>
+                        </div>
+                        <div class="right-section2-mb ">
+                            <div class="row gap-s2-mb">
+                            <div class="col-lg-6">
+                                <div class="container-s2-mb"><img src="img/is2.jpg" alt="">
+                                        <div class="vm-s2">
+                                            <a href="#">Xem chi tiết</a>
+                                        </div> 
+                                        <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                                    </div>
+                                    <div class="container-s2-mb"><img src="img/is2.jpg" alt="">
+                                        <div class="vm-s2">
+                                            <a href="#">Xem chi tiết</a>
+                                        </div> 
+                                        <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                                    </div>
+                                    <div class="container-s2-mb"><img src="img/is2.jpg" alt="">
+                                        <div class="vm-s2">
+                                            <a href="#">Xem chi tiết</a>
+                                        </div> 
+                                        <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                                    </div>
+                                    <div class="container-s2-mb"><img src="img/is2.jpg" alt="">
+                                        <div class="vm-s2">
+                                            <a href="#">Xem chi tiết</a>
+                                        </div> 
+                                        <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                                    </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="container-s2-mb"><img src="img/is2.jpg" alt="">
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                    <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                                </div>
+                                <div class="container-s2-mb"><img src="img/is2.jpg" alt="">
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                    <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                                </div>
+                                <div class="container-s2-mb"><img src="img/is2.jpg" alt="">
+                                    <div class="vm-s2">
+                                        <a href="#">Xem chi tiết</a>
+                                    </div> 
+                                    <div class="text-left-content"><a href="#">Bọc Răng Sứ</a></div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="section3">
+                <div class="row wrap">
+                    <div class="col-lg-6 left-content-section3">
+                        <img src="img/is3.2.jpg" alt="">
+                        <div class="text-left-section3">
+                            <h2>Tại sao nên lựa chọn</h2>
+                            <h1>NHA KHOA QUỐC TẾ DAISY</h1>
+                            <div class="line"></div>
+                            <p>Được hình thành và đón nhận vị khách đầu tiên vào đầu năm 2020, Nha khoa Quốc tế DAISY đã tạo dựng được niềm tin cho các khách hàng xuyên suốt với kim chỉ nam đặt sức khỏe và mang lại sự an toàn, thẩm mỹ lên hàng đầu với mô hình chăm sóc sức khỏe Răng - Hàm - Mặt hiện đại nhất.</p>
+                            <a href="#" class="view-more">Xem chi tiết</a>
+                        </div>
+                        </div>
+                    <div class="col-lg-6">
+                        <div id="right-banner-section3"><img src="img/is3.jpg" alt="">
+                        <button class="btn-video-s3"><img src="img/icon-video0.png" alt=""></button>
+                    </div>
+                    <div id="video-ytb">
+                        <iframe src="https://www.youtube.com/embed/XZQ_Snp1E0c?si=w6ky5pTgRvysqp67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section4">
+                <div class="container">
+                    <div class="text-heading-section4">
+                        <p>Đội ngũ bác sĩ</p>
+                        <div class="line-s4"></div>
+                    </div>
+                    <div class="container-section4">
+                        <div class="content-section4">
+                            <img src="img/bac-si-nguyen-thi-le-thu.jpg" alt="">
+                            <div class="text-o">
+                                Bác sĩ chuyên khoa Răng Hàm Mặt
+                            </div>
+                            <h3>Bác sĩ Nguyễn Thị Lệ Thu</h3>
+                            <p>9 năm kinh nghiệm</p>
+                            <a href="#" class="more-section4">Tìm hiểu thêm</a>
+                        </div>
+                        <div class="content-section4">
+                            <img src="img/bac-si-nguyen-thi-le-thu.jpg" alt="">
+                            <div class="text-o">
+                                Bác sĩ chuyên khoa Răng Hàm Mặt
+                            </div>
+                            <h3>Bác sĩ Nguyễn Thị Lệ Thu</h3>
+                            <p>9 năm kinh nghiệm</p>
+                            <a href="#" class="more-section4">Tìm hiểu thêm</a>
+                        </div>
+                        <div class="content-section4">
+                            <img src="img/bac-si-nguyen-thi-le-thu.jpg" alt="">
+                            <div class="text-o">
+                                Bác sĩ chuyên khoa Răng Hàm Mặt
+                            </div>
+                            <h3>Bác sĩ Nguyễn Thị Lệ Thu</h3>
+                            <p>9 năm kinh nghiệm</p>
+                            <a href="#" class="more-section4">Tìm hiểu thêm</a>
+                        </div>
+                        <div class="content-section4">
+                            <img src="img/bac-si-nguyen-thi-le-thu.jpg" alt="">
+                            <div class="text-o">
+                                Bác sĩ chuyên khoa Răng Hàm Mặt
+                            </div>
+                            <h3>Bác sĩ Nguyễn Thị Lệ Thu</h3>
+                            <p>9 năm kinh nghiệm</p>
+                            <a href="#" class="more-section4">Tìm hiểu thêm</a>
+                        </div>
+                        <div class="content-section4">
+                            <img src="img/bac-si-nguyen-thi-le-thu.jpg" alt="">
+                            <div class="text-o">
+                                Bác sĩ chuyên khoa Răng Hàm Mặt
+                            </div>
+                            <h3>Bác sĩ Nguyễn Thị Lệ Thu</h3>
+                            <p>9 năm kinh nghiệm</p>
+                            <a href="#" class="more-section4">Tìm hiểu thêm</a>
+                        </div>
+                        <div class="content-section4">
+                            <img src="img/bac-si-nguyen-thi-le-thu.jpg" alt="">
+                            <div class="text-o">
+                                Bác sĩ chuyên khoa Răng Hàm Mặt
+                            </div>
+                            <h3>Bác sĩ Nguyễn Thị Lệ Thu</h3>
+                            <p>9 năm kinh nghiệm</p>
+                            <a href="#" class="more-section4">Tìm hiểu thêm</a>
+                        </div>
+                        <div class="content-section4">
+                            <img src="img/bac-si-nguyen-thi-le-thu.jpg" alt="">
+                            <div class="text-o">
+                                Bác sĩ chuyên khoa Răng Hàm Mặt
+                            </div>
+                            <h3>Bác sĩ Nguyễn Thị Lệ Thu</h3>
+                            <p>9 năm kinh nghiệm</p>
+                            <a href="#" class="more-section4">Tìm hiểu thêm</a>
+                        </div>
+                        <div class="content-section4">
+                            <img src="img/bac-si-nguyen-thi-le-thu.jpg" alt="">
+                            <div class="text-o">
+                                Bác sĩ chuyên khoa Răng Hàm Mặt
+                            </div>
+                            <h3>Bác sĩ Nguyễn Thị Lệ Thu</h3>
+                            <p>9 năm kinh nghiệm</p>
+                            <a href="#" class="more-section4">Tìm hiểu thêm</a>
+                        </div>
+                        <div class="content-section4">
+                            <img src="img/bac-si-nguyen-thi-le-thu.jpg" alt="">
+                            <div class="text-o">
+                                Bác sĩ chuyên khoa Răng Hàm Mặt
+                            </div>
+                            <h3>Bác sĩ Nguyễn Thị Lệ Thu</h3>
+                            <p>9 năm kinh nghiệm</p>
+                            <a href="#" class="more-section4">Tìm hiểu thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section5">
+                <div class="row container wrap">
+                    <div class="col-lg-6 text-section5">
+                        <h1>Cảm nhận 
+                            <br>
+                            của khách hàng</h1>
+                        <div class="line-g"></div>
+                        <p>"Nhân viên chăm sóc Ny rất nhiệt tình, chu đáo.Không gian rộng rãi, thoáng mát và riêng tư."</p>
+                        <div class="name-text-section5">
+                            Diễn viên Ny Saki
+                            <p>Dán răng sứ Veneer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 content-section5">
+                        <div class="slide-top-content">
+                            <div class="top-content">
+                                    <img src="img/anh-dien-vien-ny-saki-trang-chu-1.jpg" alt="">
+                                    <button class="btn-play"><img src="img/icon-video0.png" alt=""></button>
+                                </div>
+                            <div class="top-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-1.jpg" alt="">
+                                <button class="btn-play"><img src="img/icon-video0.png" alt=""></button>
+                            </div>
+                            <div class="top-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-1.jpg" alt="">
+                                <button class="btn-play"><img src="img/icon-video0.png" alt=""></button>
+                            </div>
+                            <div class="top-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-1.jpg" alt="">
+                                <button class="btn-play"><img src="img/icon-video0.png" alt=""></button>
+                            </div>
+                            <div class="top-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-1.jpg" alt="">
+                                <button class="btn-play"><img src="img/icon-video0.png" alt=""></button>
+                            </div>
+                            <div class="top-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-1.jpg" alt="">
+                                <button class="btn-play"><img src="img/icon-video0.png" alt=""></button>
+                            </div>
+                            <div class="top-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-1.jpg" alt="">
+                                <button class="btn-play"><img src="img/icon-video0.png" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="slide-bot-content">
+                            <div class="bot-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-2.jpg" alt="">
+                                <div class="btn-video"><a href="#"><img src="img/icon-video1.png" alt=""></a></div>
+                            </div>
+                            <div class="bot-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-2.jpg" alt="">
+                                <div class="btn-video"><a href="#"><img src="img/icon-video1.png" alt=""></a></div>
+                            </div>
+                            <div class="bot-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-2.jpg" alt="">
+                                <div class="btn-video"><a href="#"><img src="img/icon-video1.png" alt=""></a></div>
+                            </div>
+                            <div class="bot-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-2.jpg" alt="">
+                                <div class="btn-video"><a href="#"><img src="img/icon-video1.png" alt=""></a></div>
+                            </div>
+                            <div class="bot-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-2.jpg" alt="">
+                                <div class="btn-video"><a href="#"><img src="img/icon-video1.png" alt=""></a></div>
+                            </div>
+                            <div class="bot-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-2.jpg" alt="">
+                                <div class="btn-video"><a href="#"><img src="img/icon-video1.png" alt=""></a></div>
+                            </div>
+                            <div class="bot-content">
+                                <img src="img/anh-dien-vien-ny-saki-trang-chu-2.jpg" alt="">
+                                <div class="btn-video"><a href="#"><img src="img/icon-video1.png" alt=""></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="secion6">
+                <div class="container">
+                    <div class="row text-heading-section6">
+                        <div class="r-text-heading-s6">
+                            <p>Kiến thức</p>
+                            <span>nha khoa</span>
+                        </div>
+                        <a href="#">Xem tất cả</a>
+                    </div>
+                    <div class="row wrap">
+                        <div class="col-lg-6 l-content-s6">
+                            <div class="zoom-img"><a href="#"><img src="img/tim-hieu-trong-rang-cam-gia-bao-nhieu.jpg" alt=""></a></div>
+                            <div class="text-lc-s6">
+                                <a href="#">Trồng răng cấm giá bao nhiêu? Có những phương pháp nào?</a>
+                                <p>Mất răng cấm là tình trạng phổ biến hiện nay, gây ảnh hưởng lớn đến sức khỏe răng miệng và khiến nhiều người lo lắng. Nếu đang băn khoăn không biết trồng răng cấm giá bao nhiêu và nên chọn […]</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 r-content-s6">
+                            <div class="row">
+                                <div class="col-lg-6 top-sm sm-container-rs6">
+                                   <div class="zoom-img"><a href="#"><img src="img/tim-hieu-trong-rang-implant-xi-mang.jpg" alt=""></a></div>
+                                   <a href="#">Trồng răng implant xi măng và trồng răng bắt vít: Loại nào tốt hơn?</a> 
+                                </div>
+                                <div class="col-lg-6 top-sm sm-container-rs6">
+                                    <div class="zoom-img"><a href="#"><img src="img/tim-hieu-trong-rang-implant-xi-mang.jpg" alt=""></a></div>
+                                     <a href="#">Trồng răng implant xi măng và trồng răng bắt vít: Loại nào tốt hơn?</a>
+                                 </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 bot-sm sm-container-rs6">
+                                    <div class="zoom-img"><a href="#"><img src="img/tim-hieu-trong-rang-implant-xi-mang.jpg" alt=""></a></div>
+                                    <a href="#">Trồng răng implant xi măng và trồng răng bắt vít: Loại nào tốt hơn?</a> 
+                                </div>
+                                <div class="col-lg-6 bot-sm sm-container-rs6">
+                                    <div class="zoom-img"><a href="#"><img src="img/tim-hieu-trong-rang-implant-xi-mang.jpg" alt=""></a></div>
+                                    <a href="#">Trồng răng implant xi măng và trồng răng bắt vít: Loại nào tốt hơn?</a> 
+                                 </div>
+                            </div>
+                    </div>
+                    <a href="#" class="view-more-mb">Xem tất cả</a>
+                    </div>
+                </div>
+            </section>
+            <section class="secion7">
+                <div class="container">
+                    <div class="row text-heading-section6">
+                        <div class="r-text-heading-s6">
+                            <p>Tin Tức</p>
+                            <span>- Sự kiện</span>
+                        </div>
+                        <a href="#">Xem tất cả</a>
+                    </div>
+                    <div class="row gap-s7">
+                        <div class="col-lg-3 content-s7">
+                            <div class="zoom-img">
+                                <a href="#"><img src="img/phat-gao-thien-nguyen-thumb-1.jpg" alt=""></a>
+                            </div>
+                            <a href="#">DAISY DENTAL phát hàng trăm phần gạo cho người dân khó khăn...</a>
+                            <p>
+                                Hơn nửa đầu năm 2024 đã trôi qua, nền kinh tế đất nước tuy đã có chuyển biến tích cực nhưng vẫn...
+                            </p>
+                            <a href="#" class="view-more-s7">Xem chi tiết</a>
+                        </div>
+                        <div class="col-lg-3 content-s7">
+                            <div class="zoom-img"><a href="#"><img src="img/phat-gao-thien-nguyen-thumb-1.jpg" alt=""></a></div>
+                            <a href="#">DAISY DENTAL phát hàng trăm phần gạo cho người dân khó khăn...</a>
+                            <p>
+                                Hơn nửa đầu năm 2024 đã trôi qua, nền kinh tế đất nước tuy đã có chuyển biến tích cực nhưng vẫn...
+                            </p>
+                            <a href="#" class="view-more-s7">Xem chi tiết</a>
+                        </div>
+                        <div class="col-lg-3 content-s7">
+                            <div class="zoom-img"><a href="#"><img src="img/phat-gao-thien-nguyen-thumb-1.jpg" alt=""></a></div>
+                            <a href="#">DAISY DENTAL phát hàng trăm phần gạo cho người dân khó khăn...</a>
+                            <p>
+                                Hơn nửa đầu năm 2024 đã trôi qua, nền kinh tế đất nước tuy đã có chuyển biến tích cực nhưng vẫn...
+                            </p>
+                            <a href="#" class="view-more-s7">Xem chi tiết</a>
+                        </div>
+                        <div class="col-lg-3 content-s7">
+                            <div class="zoom-img"><a href="#"><img src="img/phat-gao-thien-nguyen-thumb-1.jpg" alt=""></a></div>
+                            <a href="#">DAISY DENTAL phát hàng trăm phần gạo cho người dân khó khăn...</a>
+                            <p>
+                                Hơn nửa đầu năm 2024 đã trôi qua, nền kinh tế đất nước tuy đã có chuyển biến tích cực nhưng vẫn...
+                            </p>
+                            <a href="#" class="view-more-s7">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <a href="#" class="view-more-mb">Xem tất cả</a>
+                </div>
+            </section>
+            <section class="section8">
+                <div class="row content-s8 wrap">
+                    <div class="col-lg-6 l-content-s8">
+                        <img src="img/bao-chi-noi-gi-ve-chung-toi-pc.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 r-content-s8">
+                        <div class="row">
+                            <div class="col-lg-6 press"><img src="img/bao-dan-tri-trang-chu.jpg" alt="">
+                            <div class="center-hover-text">
+                                <a href="#">Chính thức ra mắt thương hiệu Nha khoa DAISY</a>
+                                <a href="#">Xem chi tiết >></a>
+                            </div>
+                            </div>
+                            <div class="col-lg-6 press"><img src="img/bao-dan-tri-trang-chu.jpg" alt="">
+                                <div class="center-hover-text">
+                                    <a href="#">Chính thức ra mắt thương hiệu Nha khoa DAISY</a>
+                                    <a href="#">Xem chi tiết >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 press"><img src="img/bao-dan-tri-trang-chu.jpg" alt="">
+                                <div class="center-hover-text">
+                                    <a href="#">Chính thức ra mắt thương hiệu Nha khoa DAISY</a>
+                                    <a href="#">Xem chi tiết >></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 press"><img src="img/bao-dan-tri-trang-chu.jpg" alt="">
+                                <div class="center-hover-text">
+                                    <a href="#">Chính thức ra mắt thương hiệu Nha khoa DAISY</a>
+                                    <a href="#">Xem chi tiết >></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section9">
+                <div class="container">
+                    <div class="text-heading-section6">
+                        <div class="r-text-heading-s6">
+                            <p>Đối tác của</p>
+                            <span>chúng tôi</span>
+                        </div>
+                    </div>
+                    <div class="partner-slide">
+                        <div><img src="img/tham-my-vien-diva-doi-tac-nha-khoa-daisy.jpg" alt=""></div>
+                        <div><img src="img/tham-my-vien-diva-doi-tac-nha-khoa-daisy.jpg" alt=""></div>
+                        <div><img src="img/tham-my-vien-diva-doi-tac-nha-khoa-daisy.jpg" alt=""></div>
+                        <div><img src="img/tham-my-vien-diva-doi-tac-nha-khoa-daisy.jpg" alt=""></div>
+                        <div><img src="img/tham-my-vien-diva-doi-tac-nha-khoa-daisy.jpg" alt=""></div>
+                        <div><img src="img/tham-my-vien-diva-doi-tac-nha-khoa-daisy.jpg" alt=""></div>
+                        <div><img src="img/tham-my-vien-diva-doi-tac-nha-khoa-daisy.jpg" alt=""></div>
+                    </div>
+            </div>
+            </section>
+        </main>
+    </body>
+    <footer id="footer">
+        <div class="background-footer">
+            <div class="container">
+                <div class="row top-footer wrap">
+                    <div class="col-lg-3">
+                        <ul class="contact-footer">
+                            <img class="logo-footer" src="img/logo-8-3.png" alt="">
+                            <li>Nha khoa Quốc tế DAISY</li>
+                            <li>Hotline: <a href="">1900 9009</a></li>
+                            <li>Email: info@nhakhoadaisy.vn</li>
+                            <li>Web: nhakhoadaisy.vn</li>
+                            <div class="line-footer-contact"></div>
+                            <p>Thời gian làm việc</p>
+                            <div class="time-footer">
+                                <img src="img/icon-clock0.png" alt="">
+                                <p>T.Hai - C.Nhật
+                                    <br>
+                                    9AM - 8PM
+                                </p>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="branch-footer">
+                            <p>Chi nhánh</p>
+                            <li><a href="#">Cơ sở 1: Số 65-67 Phú Lợi, Phường Phú Lợi, TP. Thủ Dầu Một, Tỉnh Bình Dương.</li></a>
+                            <li><a href="#">Cơ sở 2: Số 140 Hai Bà Trưng, Phường 6, TP. Đà Lạt, Tỉnh Lâm Đồng.</li></a>
+                            <li><a href="#">Cơ sở 3: Số 81 Phan Đình Phùng, Phường 1, TP. Đà Lạt, Tỉnh Lâm Đồng.</li></a>
+                            <li><a href="#">Cơ sở 4: Số 83 Yersin, Phường Phương Sài, TP. Nha Trang, Tỉnh Khánh Hòa.</li></a>
+                            <li><a href="#">Cơ sở 5: Số 164 Lý Tự Trọng, Phường An Cư, Q. Ninh Kiều, TP. Cần Thơ, Tỉnh Cần Thơ.</li></a>
+                            <li><a href="#">Cơ sở 6: Số 511A Trần Phú, Phường 1, TP. Bảo Lộc, Tỉnh Lâm Đồng.</li></a>
+                            <li><a href="#">Cơ sở 7: Số 412 QL20, TT. Liên Nghĩa, H. Đức Trọng, Tỉnh Lâm Đồng (Coming soon).</li></a>
+                            <li><a href="#">Cơ sở 8: Số 303 Phan Trung, Phường Tân Mai, Biên Hòa, Đồng Nai.</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 center">
+                        <ul class="about-footer">
+                            <p>Về chúng tôi</p>
+                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                            <li><a href="">Tiktok</a></li>
+                            <li><a href="">Chính sách bảo mật</a></li>
+                            <li><a href="">Chính sách bảo hành</a></li>
+                            <li><a href="">Chính sách trả góp</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 page-fb">
+                        <a href="#"><img src="img/fanpage-nha-khoa-daisy.jpg" alt=""></a>
+                        <a href="#" class="row cert">
+                            <div><img src="img/handle_cert.png" alt=""></div>
+                            <div><img src="img/handle_cert2.png" alt=""></div>
+                        </a>
+                        <p>Lưu ý kết quả tùy thuộc vào cơ địa mỗi người
+                            <br>
+                            Copy right © 2022 - Bản quyền thuộc về Nha khoa Quốc tế DAISY</p>
+                    </div>
+                </div>
+        </div>
+        </div>
+            <div class="bot-footer">
+               <div class="container">
+                    <p>Giấy CNĐKDN: 3702941839 - Ngày cấp: 23/12/2020.</p>
+                    <p>Cơ quan cấp: Phòng Đăng ký kinh doanh - Sở kế hoạch và Đầu tư Tỉnh Bình Dương</p>
+                    <p>Giấy phép hoạt động khám bệnh, chữa bệnh số: 01195/SYT - GPHĐ do Sở Y tế Tỉnh Bình Dương cấp ngày 01/06/2021</p>
+                    <p>Địa chỉ trụ sở chính: Số 52 Phú Lợi, Phường Phú Hòa, TP. Thủ Dầu Một, Bình Dương</p>
+                   </div>
+            </div> 
+    </footer>
+        <script src="js/main.js"></script>
+        <script src="js/home.js"></script>
+    </html>
